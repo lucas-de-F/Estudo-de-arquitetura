@@ -41,6 +41,7 @@ export class VMComponent {
     this.value = ''
   }
 
+  
   remover(id: number) {
     this.model.remover(id);
   }
