@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:1234"
+    container_name: mvp
+    restart: unless-stopped
