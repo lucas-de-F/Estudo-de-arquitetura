@@ -1,0 +1,22 @@
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    margin-left: 20px;
+    height: 20px;
+}
+
+.input-texto {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    align-items: start;
+}
